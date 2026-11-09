@@ -1,0 +1,135 @@
+{
+  "_nota": "Proyectos del sitio de ejemplo de Vano Estudio (marca ficticia). Las imágenes son de stock con licencia libre (ver CREDITOS-IMAGENES.md); los proyectos y sus textos son ilustrativos. Cada imagen dice si es boceto, render o foto real. null = dato que daría el cliente (se muestra como pendiente). Después de editar: node herramientas/construir.mjs",
+  "proyectos": [
+    {
+      "slug": "sala-comedor-calida",
+      "nombre": "Sala comedor en tonos cálidos",
+      "tipo": "Del boceto al render",
+      "resumen": "Una sala que se abre al comedor: madera clara, vidrio, plantas y una luz de tarde que entra de lado.",
+      "comparar": {
+        "antes": { "src": "sala-comedor-boceto.webp", "w": 1600, "h": 1075, "alt": "Boceto a lápiz de una sala comedor con sillas tapizadas, mesa de vidrio y plantas", "marca": "Boceto" },
+        "despues": { "src": "sala-comedor.webp", "w": 1600, "h": 1075, "alt": "Render de la misma sala comedor en tonos cálidos, con sillas tapizadas, mesa de vidrio, plantas y luz de tarde", "marca": "Render" }
+      },
+      "portada": { "src": "sala-comedor.webp", "w": 1600, "h": 1075, "alt": "Render de una sala comedor en tonos cálidos con luz de tarde", "rotulo": "Render · Sala comedor" },
+      "ficha": { "espacio": "Sala y comedor", "alcance": "Diseño y render", "imagenes": "Boceto y render" },
+      "titular": "Del boceto a la <em>luz</em>.",
+      "texto": [
+        "Primero el boceto: dónde va la mesa, por dónde se pasa, qué se ve desde la puerta. Después el render, con los materiales y la luz que va a tener el espacio.",
+        "Desliza para comparar. Mismo encuadre, para que el cambio se lea de un vistazo."
+      ],
+      "galeria": [
+        { "src": "sala-comedor-boceto.webp", "w": 1600, "h": 1075, "alt": "Boceto a lápiz de la sala comedor", "rotulo": "Boceto · El encuadre" },
+        { "src": "sala-comedor.webp", "w": 1600, "h": 1075, "alt": "Render de la sala comedor terminada", "rotulo": "Render · La propuesta" },
+        { "pendiente": "Foto real del espacio terminado" }
+      ]
+    },
+    {
+      "slug": "sala-frente-al-ventanal",
+      "nombre": "Sala frente al ventanal",
+      "tipo": "Render",
+      "resumen": "Un sofá mostaza, una alfombra de rayas y un ventanal que convierte el jardín en el cuadro principal.",
+      "portada": { "src": "sala-ventanal.webp", "w": 1600, "h": 1280, "alt": "Render de una sala amplia con sofá modular mostaza, alfombra de rayas, mesas bajas oscuras y un ventanal hacia el jardín", "rotulo": "Render · Sala" },
+      "ficha": { "espacio": "Sala", "alcance": "Diseño y render", "imagenes": "Render" },
+      "titular": "Una sala que mira al <em>jardín</em>.",
+      "texto": [
+        "Sofá modular mostaza, mesas bajas en tono oscuro y una alfombra de rayas que ordena el centro. Nada compite con el ventanal.",
+        "Es un render: así ves tu espacio antes de construirlo, con los materiales y la luz que va a tener."
+      ],
+      "galeria": [
+        { "src": "sala-ventanal.webp", "w": 1600, "h": 1280, "alt": "Render de la sala frente al ventanal", "rotulo": "Render · Sala" },
+        { "src": "sala-gris.webp", "w": 1200, "h": 1500, "alt": "Render de una sala alargada en grises con muro oscuro y luz indirecta", "rotulo": "Render · Otra opción, en grises" },
+        { "pendiente": "Foto real del espacio terminado" }
+      ]
+    },
+    {
+      "slug": "cocina-comedor-de-madera",
+      "nombre": "Cocina comedor de madera",
+      "tipo": "Render",
+      "resumen": "Gabinetes claros, una mesa redonda y luz bajo los muebles altos: una cocina hecha para quedarse.",
+      "portada": { "src": "cocina-comedor.webp", "w": 1600, "h": 1280, "alt": "Render de una cocina abierta con gabinetes claros, luz bajo los muebles altos, mesa redonda de madera y sillas tapizadas", "rotulo": "Render · Cocina comedor" },
+      "ficha": { "espacio": "Cocina y comedor", "alcance": "Diseño, render y remodelación", "imagenes": "Render" },
+      "titular": "Una cocina para <em>quedarse</em>.",
+      "texto": [
+        "Gabinetes claros hasta el techo, una franja de luz bajo los muebles altos y una mesa redonda de madera que hace de comedor diario.",
+        "Elegir entre renders es más fácil que imaginar sobre un plano, y cuesta menos cambiar de idea antes de construir."
+      ],
+      "galeria": [
+        { "src": "cocina-comedor.webp", "w": 1600, "h": 1280, "alt": "Render de la cocina comedor", "rotulo": "Render · Cocina comedor" },
+        { "pendiente": "Planta y opciones de distribución" },
+        { "pendiente": "Foto real del espacio terminado" }
+      ]
+    },
+    {
+      "slug": "dormitorio-luz-calida",
+      "nombre": "Dormitorio de luz cálida",
+      "tipo": "Render",
+      "resumen": "Un dormitorio en tonos de lino y madera, con luz cálida a los lados de la cama.",
+      "portada": { "src": "dormitorio.webp", "w": 1600, "h": 1000, "alt": "Render de un dormitorio con cabecero de madera, ropa de cama en tonos de lino, lámparas de pared y techo inclinado", "rotulo": "Render · Dormitorio" },
+      "ficha": { "espacio": "Dormitorio principal", "alcance": "Diseño y render", "imagenes": "Render" },
+      "titular": "Un cuarto que invita a <em>descansar</em>.",
+      "texto": [
+        "Cabecero de madera de lado a lado, ropa de cama en tonos de lino y dos lámparas de pared que dejan la luz donde se lee.",
+        "Es un render: el proyecto completo en imagen antes de mover un mueble."
+      ],
+      "galeria": [
+        { "src": "dormitorio.webp", "w": 1600, "h": 1000, "alt": "Render del dormitorio de luz cálida", "rotulo": "Render · Dormitorio" },
+        { "pendiente": "Detalle de materiales" },
+        { "pendiente": "Foto real del espacio terminado" }
+      ]
+    },
+    {
+      "slug": "bano-piedra-y-madera",
+      "nombre": "Baño de piedra y madera",
+      "tipo": "Render · Dos opciones",
+      "resumen": "Dos opciones para el mismo baño: una clara, con tina exenta, y otra en tonos de tierra.",
+      "portada": { "src": "bano-madera.webp", "w": 1600, "h": 1360, "alt": "Render de un baño con tina exenta blanca, muro de piedra clara, panel de madera y ventanal", "rotulo": "Render · Opción 1" },
+      "ficha": { "espacio": "Baño principal", "alcance": "Diseño y render, con opciones", "imagenes": "Render" },
+      "titular": "Dos opciones, una <em>decisión</em>.",
+      "texto": [
+        "Del mismo baño se proponen dos opciones para que elijas viendo: una clara, con tina exenta y madera, y otra en tonos de tierra con piedra y luz rasante.",
+        "Ver las dos en render ayuda a decidir el material antes de comprarlo."
+      ],
+      "galeria": [
+        { "src": "bano-madera.webp", "w": 1600, "h": 1360, "alt": "Render de la opción clara del baño", "rotulo": "Render · Opción 1" },
+        { "src": "bano-piedra.webp", "w": 1200, "h": 1500, "alt": "Render de la opción en tonos de tierra del baño, con tina oscura y luz rasante sobre madera", "rotulo": "Render · Opción 2" },
+        { "pendiente": "Foto real del espacio terminado" }
+      ]
+    },
+    {
+      "slug": "de-obra-gris-a-hogar",
+      "nombre": "De obra gris a hogar",
+      "tipo": "Obra · foto real",
+      "resumen": "Así se ve la obra por dentro: muros abiertos, puntales y el espacio listo para empezar de nuevo.",
+      "portada": { "src": "obra-escalera.webp", "w": 1600, "h": 1065, "alt": "Foto real de una obra de remodelación: un trabajador en una escalera, muros a medio terminar y una puerta hacia un espacio ya pintado", "rotulo": "Foto real · Obra" },
+      "ficha": { "espacio": "Apartamento completo", "alcance": "De obra gris a hogar", "imagenes": "Foto real" },
+      "titular": "Así se ve la obra por <em>dentro</em>.",
+      "texto": [
+        "Muros abiertos, puntales y polvo: la parte que no sale en los renders y que define si el espacio se entrega a tiempo.",
+        "Cuando el proyecto termina, aquí van el render del diseño y las fotos del espacio entregado."
+      ],
+      "galeria": [
+        { "src": "obra-estructura.webp", "w": 1400, "h": 934, "alt": "Foto real de un espacio en obra con puntales metálicos y escombros", "rotulo": "Foto real · La obra" },
+        { "src": "obra-cocina.webp", "w": 1600, "h": 1067, "alt": "Foto real de una cocina en remodelación con los gabinetes cubiertos de plástico", "rotulo": "Foto real · Cocina en obra" },
+        { "src": "apartamento-vacio.webp", "w": 1600, "h": 1067, "alt": "Foto real de un apartamento terminado y vacío, con piso de madera y cocina al fondo", "rotulo": "Foto real · Listo para habitar" }
+      ]
+    },
+    {
+      "slug": "cocina-concreto-a-la-vista",
+      "nombre": "Cocina con concreto a la vista",
+      "tipo": "Foto real",
+      "resumen": "Una isla larga en piedra, techo de concreto y la cocina abierta al comedor.",
+      "portada": { "src": "cocina-concreto.webp", "w": 1200, "h": 1800, "alt": "Foto real de una cocina abierta con isla larga en piedra clara, techo de concreto a la vista y comedor al fondo", "rotulo": "Foto real · Cocina" },
+      "ficha": { "espacio": "Cocina y comedor", "alcance": "Remodelación y acabados", "imagenes": "Foto real" },
+      "titular": "Concreto, piedra y <em>calma</em>.",
+      "texto": [
+        "Una isla larga en piedra clara, el techo de concreto a la vista y la cocina abierta al comedor. Pocos materiales, bien puestos.",
+        "Es una foto real: así se ve un espacio cuando lo que se aprobó en render llega a la obra."
+      ],
+      "galeria": [
+        { "src": "cocina-concreto.webp", "w": 1200, "h": 1800, "alt": "Foto real de la cocina con concreto a la vista", "rotulo": "Foto real · Cocina" },
+        { "pendiente": "Render del diseño" },
+        { "pendiente": "El antes, en foto real" }
+      ]
+    }
+  ]
+}
